@@ -6,8 +6,7 @@ choco feature enable -n=allowGlobalConfirmation;
 
 <# programs to install #>
 @(
-"firefox"
-,"googlechrome"
+"googlechrome"
 ,"qbittorrent"
 ,"vlc"
 ,"winrar"
