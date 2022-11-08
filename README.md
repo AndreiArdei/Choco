@@ -4,6 +4,11 @@ This repository contains a script to install the applications needed in a new PC
 
 You must open PowerShell in administrator mode and run the following command: 
 
+## 🍫 Install [Chocolatey](https://chocolatey.org/install) Package Manager
+
+1. Open **Windows Powershell** as Administrator
+2. Install Chocolatey and programs with the command: 
+
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/AndreiArdei/Choco/master/Install.ps1'));
 ```
